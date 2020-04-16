@@ -45,9 +45,9 @@
        var userName=prompt("what is your name");
          alert("Nice to see you "+userName);
       function requestOrder(){
-         var order = prompt('What are you looking for? Are you looking for plants or seads');
+         var order = prompt('What are you looking for? Are you looking for plants or seeds');
          var item = '';
-         while(order !==  'plants' && order !== 'seads'){
+         while(order !==  'plants' && order !== 'seeds'){
            order = prompt('Please choose plants or seeds');
          }
          var nuberOfOrder = prompt('How many would you like to order?');
@@ -55,7 +55,7 @@
            if(order === 'plants'){
            item = item+'<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqbqGfBnJrr3c22w4Ih-H8fE-E_9nJbgwBjUcFzoHX8XyyQE3M&usqp=CAU">';
          }
-         else if(order === 'seads'){
+         else if(order === 'seeds'){
            item = item+'<img src="https://img3.exportersindia.com/product_images/bc-full/dir_133/3961379/sunflower-seeds-2321436.jpeg">';   
          }
          else{
